@@ -24,5 +24,7 @@ dim(df)
 plot(1:489,df$cases,col="darkgreen", cex=0.5,xlab = "Days",ylab="Num.cases", main = "Covid-19 Cases in the United States")
 png("Covid_cases.png",width= 10, height= 10,res=600)
 
+dev.off()
+
 ```
 
