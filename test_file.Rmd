@@ -18,8 +18,6 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r}
 library(tidyverse)
 df<-read.csv("us.csv",header = T)
-head(df)
-tail(df)
 dim(df)
 plot(1:489,df$cases,col="darkgreen", cex=0.5,xlab = "Days",ylab="Num.cases", main = "Covid-19 Cases in the United States")
 png("Covid_cases.png",width= 10, height= 10,res=600)
